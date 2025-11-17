@@ -3,19 +3,16 @@
 ## Einleitung
 
 Künstliche Intelligenz – und besonders **moderne Sprachmodelle** – kann uns bei Coherent Corp. auf vielfältige Weise unterstützen:
-beim **Entwickeln technischer Spezifikationen für Photonik-Systeme**, dem **Erstellen von Produktdokumentationen für Laser-Anwendungen**, 
-dem **Strukturieren komplexer F&E-Projekte** oder dem **Verfassen von technischen Whitepapers und Application Notes**.
+beim **Entwickeln technischer Spezifikationen für Photonik-Systeme**, dem **Erstellen von Produktdokumentationen für Laser-Anwendungen**, dem **Strukturieren komplexer Entwicklungsprojekte** oder dem **Verfassen überzeugender Kundenvorschläge und technischer Whitepapers**.
 
 Doch der eigentliche Schlüssel zu wirklich hilfreichen Ergebnissen liegt **nicht** in der Technik selbst,
-sondern **in der Art, wie wir mit ihr sprechen**.
+sondern **in der Art, wie wir mit ihr kommunizieren**.
 
 Mit gezielten Anweisungen, sogenannten **Personas**, lassen sich KI-Assistenten so steuern,
-dass sie wie spezialisierte Experten agieren – etwa als Photonics Application Engineer, Laser Systems Architect, 
-Technical Marketing Manager oder Quality Assurance Engineer.
+dass sie wie spezialisierte Experten agieren – etwa als Photonics Application Engineer, Materials Science Specialist, Technical Sales Engineer oder Product Marketing Manager.
 
 In diesem Tutorial lernst du Schritt für Schritt, wie du KI-Assistenten gezielt als digitale Experten einsetzen kannst,
-um deine Aufgaben bei Coherent noch effizienter, präziser und wirkungsvoller zu erfüllen – 
-ganz im Sinne unserer Mission: **"Innovations That Resonate"**.
+um deine Aufgaben bei Coherent noch effizienter, präziser und wirkungsvoller zu erfüllen – ganz im Sinne unserer Mission: **"Innovations That Resonate"**.
 
 ---
 
@@ -24,26 +21,25 @@ ganz im Sinne unserer Mission: **"Innovations That Resonate"**.
 Moderne KI-Assistenten sind sogenannte „Large Language Models" (LLMs). Sie arbeiten **nicht mit echtem Wissen oder Logik**,
 sondern mit **Wahrscheinlichkeiten** und **Sprachmustern**, die aus riesigen Textmengen gelernt wurden.
 
-Man kann sich das wie eine Art „Sprachgedächtnis" vorstellen – ähnlich der Kohärenz von Lichtwellen in der Lasertechnologie:
+Man kann sich das wie eine Art „Sprachgedächtnis" vorstellen:
 Die Modelle wissen, welche Wörter und Satzstrukturen häufig gemeinsam vorkommen –
 und können so **Texte generieren**, die klingen, als kämen sie von einem echten Experten.
 
 Wenn du also einem KI-Assistenten sagst:
 
-> „Bitte agiere wie ein erfahrener Photonics Application Engineer für optische Kommunikationssysteme."
+> „Bitte agiere wie ein erfahrener Photonics Application Engineer, der kohärente optische Systeme für Hochgeschwindigkeits-Datenkommunikation entwickelt."
 
 … dann ruft er ein bestimmtes Sprachmuster ab, das mit dieser Rolle verbunden ist –
 er schreibt also im Ton, mit dem Wissen und der Perspektive einer solchen Person.
 
 Diese Rollen oder **Personas** sind keine fest programmierten Charaktere,
-sondern entstehen durch **deine Beschreibung**. Je präziser du bist – wie bei der Justierung eines Lasersystems – desto besser wird das Ergebnis.
+sondern entstehen durch **deine Beschreibung**. Je präziser und wissenschaftlich fundierter du bist, desto besser wird das Ergebnis.
 
-**⚠️ Wichtiger Hinweis zu Datenschutz und Compliance:**
+**⚠️ Wichtiger Hinweis zu Datenschutz und technischer Vertraulichkeit:**
 - Gib **niemals** proprietäre Produktdaten, Patentinformationen oder Forschungsergebnisse in KI-Tools ein
 - Verwende für Beispiele immer **anonymisierte oder fiktive Daten**
-- Beachte **ITAR** (International Traffic in Arms Regulations) bei Verteidigungsanwendungen
-- Alle KI-generierten Ergebnisse müssen von einem **Fachexperten geprüft** werden, bevor sie produktiv eingesetzt werden
-- Bei Export-Control-relevanten Technologien: Zusätzliche Compliance-Prüfung erforderlich
+- Beachte **Compliance-Richtlinien** und Geheimhaltungsvereinbarungen
+- Alle KI-generierten Ergebnisse müssen von einem **Fachexperten geprüft** werden, bevor sie produktiv eingesetzt werden (Human-in-the-Loop-Prinzip)
 
 ---
 
@@ -55,16 +51,16 @@ Bevor du loslegst, überlege dir:
 Ein KI-Assistent kann z. B. agieren als:
 
 * **Photonics Application Engineer** für optische Kommunikationssysteme
-* **Laser Systems Architect** für industrielle Laseranwendungen
-* **Materials Science Engineer** für SiC-Substrate und Verbundhalbleiter
-* **Technical Marketing Manager** für Photonik-Lösungen
-* **Optical Communications Specialist** für Transceiver-Technologie
-* **Product Development Engineer** für VCSEL-Systeme
-* **Quality Assurance Engineer** für Laser-Komponenten
-* **Technical Writer** für optische Systeme und Photonik-Dokumentation
+* **Materials Science Engineer** für Verbindungshalbleiter und SiC-Technologien
+* **Laser Systems Architect** für industrielle und medizinische Laser-Anwendungen
+* **Technical Sales Engineer** für Photonik-Lösungen im Datacom-Bereich
+* **Product Marketing Manager** für innovative Laser- und Photonik-Produkte
+* **Quality Assurance Engineer** für Produktvalidierung und Prozessoptimierung
+* **R&D Scientist** für grundlegende Forschung in der Lasertechnologie
+* **HR Business Partner** für Talent Acquisition in hochspezialisierten Bereichen
+* **Technical Writer** für wissenschaftliche Dokumentation
 
-Je genauer du den gewünschten Experten beschreibst, desto besser wird das Resultat – 
-analog zur Präzision, die wir in unseren Photonik-Produkten anstreben.
+Je genauer du den gewünschten Experten beschreibst, desto präziser und fachlich fundierter wird das Resultat.
 
 ---
 
@@ -78,10 +74,10 @@ Welche 20 Wörter würden eine [spezifische Expertin oder einen Experten] beschr
 
 Zum Beispiel:
 
-> „Welche 20 Wörter würden einen Photonics Application Engineer beschreiben, der optische Transceiver-Lösungen für Hochgeschwindigkeits-Datenzentren entwickelt?"
+> „Welche 20 Wörter würden einen Photonics Application Engineer beschreiben, der kohärente optische Transceiver für 800G/1.6T Datacom-Anwendungen in hyperscale Rechenzentren entwickelt?"
 
 Das Ergebnis könnte so aussehen:
-Präzise, Innovativ, Photonik-Experte, Silizium-Photonik, VCSEL-Spezialist, Optische-Kommunikation, Datenrate-Optimierung, Wellenlängen-Management, Transceiver-Design, Vertikale-Integration, Hochgeschwindigkeits-DatenÜbertragung, Systemarchitektur, Technologie-Integration, Qualitätsorientiert, Wissenschaftlich-fundiert, Kundenorientiert, Problemlösungs-fokussiert, Standards-konform, Messverfahren, Performance-Analyse.
+Kohärent, Hochgeschwindigkeit, Silizium-Photonik, VCSEL, Indiumphosphid, Vertikal-integriert, Präzise, Optisch, Datenübertragung, Wellenlängen-Management, Transceiver, Modulation, Signal-Integrität, Low-Latency, Energieeffizient, Skalierbar, Verlustarm, Bandbreite, Dispersion, Photonik-Design.
 
 ---
 
@@ -95,7 +91,7 @@ Verwende so viele dieser Wörter wie möglich und schreibe einen vier Sätze lan
 der diesen Spezialisten in einem Sprachmodell herbeirufen würde. 
 Er soll so klingen, als würde der Nutzer ein Gespräch beginnen, etwa: 
 „Ich möchte gerne sprechen mit..." 
-Achte darauf, dass der Ton wissenschaftlich fundiert, präzise und der Photonik-Branche angemessen ist.
+Achte darauf, dass der Ton wissenschaftlich präzise und der Photonik-Branche angemessen ist.
 ```
 
 Das Ergebnis ist dein **Experten-Prompt**, den du dann in einem neuen Chatfenster nutzt.
@@ -106,218 +102,234 @@ Das Ergebnis ist dein **Experten-Prompt**, den du dann in einem neuen Chatfenste
 
 Kopiere den generierten Prompt in einen **neuen Chat** und beginne dort dein Gespräch.
 So wird die „Persönlichkeit" des Experten sauber aufgebaut,
-und du erhältst konsistente Antworten auf professionellem Niveau.
+und du erhältst konsistente Antworten auf professionellem, wissenschaftlich fundiertem Niveau.
 
 Wenn du den Prompt im selben Chat verwendest, wird der KI-Assistent oft kommentierend reagieren („Das ist ein toller Prompt…")
 – darum: **immer in einem neuen Chat starten.**
 
 ---
 
-## Praxisbeispiele für Coherent-Arbeitsfelder
+## Praxisbeispiele für Coherent Corp. Arbeitsfelder
 
-### 1. Photonics Application Engineer für Networking
+### 1. Photonics Application Engineer für Datacom-Transceiver (Engineering – 30%)
 
 ```markdown
-Ich möchte mit dem Photonics Application Engineer sprechen, der optische Transceiver-Lösungen für Hochgeschwindigkeits-Datenzentren entwickelt – 
-jemand, der präzise in Silizium-Photonik und VCSEL-Technologie arbeitet, Datenraten optimiert und vertikale Integration versteht. 
-Du kennst die Anforderungen von Hyperscalern und Cloud-Anbietern, verstehst 800G/1.6T Transceiver-Architekturen und Wellenlängen-Management, 
-und weißt, wie man technische Excellence mit Performance-Optimierung verbindet. 
-Wenn du verfügbar bist, möchte ich mit dir eine technische Spezifikation für ein neues optisches Kommunikationsmodul entwickeln.
+Ich möchte mit dem Photonics Application Engineer sprechen, der kohärente optische Transceiver für 800G/1.6T Datacom-Anwendungen entwickelt – 
+jemand, der Silizium-Photonik-Designs optimiert, VCSEL-Array-Architekturen versteht und Signal-Integrität in hochskalierbaren Rechenzentrumsumgebungen sicherstellt. 
+Du kennst die Anforderungen von Hyperscalern, verstehst Indiumphosphid-basierte Optoelektronik und vertikale Integration, 
+und weißt, wie man verlustfreie, energieeffiziente optische Verbindungen für massive KI-Cluster designt. 
+Wenn du verfügbar bist, möchte ich mit dir eine technische Spezifikation für einen 1.6T-DR8 Transceiver entwickeln.
 ```
 
-**Anwendungsfall:** Technische Datenblätter, Application Notes, Produktspezifikationen, Systemarchitektur-Dokumentationen
+**Anwendungsfall:** Technische Spezifikationen, Produktdatenblätter, Design Reviews, Performance-Analysen
 
 ---
 
-### 2. Laser Systems Architect für Industrial Applications
+### 2. HR Business Partner für Talent Acquisition in Photonik (Verwaltung/HR – 30%)
 
 ```markdown
-Ich möchte mit dem Laser Systems Architect sprechen, der industrielle Lasersysteme für Präzisionsfertigung konzipiert – 
-jemand, der Faserlaser, Ultrakurzpulslaser und CO2-Laser-Technologien beherrscht und komplexe Materialbearbeitungsprozesse versteht. 
-Du verstehst BEOL-Anforderungen in der Halbleiterindustrie, kennst Advanced Packaging-Prozesse 
-und entwickelst Laserlösungen, die höchste Präzision mit Prozessstabilität vereinen. 
-Wenn du verfügbar bist, möchte ich mit dir ein Lösungskonzept für ein Ultrakurzpulslaser-System zur Chip-Fertigung erarbeiten.
+Ich möchte mit dem HR Business Partner sprechen, der Talentakquisition für hochspezialisierte Photonik- und Halbleiter-Positionen verantwortet – 
+jemand, der die technischen Anforderungen von Photonics Engineers, Materials Scientists und Laser-Experten versteht und strategische Recruiting-Kampagnen entwickelt. 
+Du kennst die Herausforderungen im globalen Wettbewerb um MINT-Talente, verstehst die Bedeutung von Diversität in der Forschung 
+und entwickelst Onboarding-Programme, die unsere I CARE Werte (Integrity, Collaboration, Accountability, Respect, Enthusiasm) zum Leben erwecken. 
+Wenn du verfügbar bist, möchte ich mit dir eine Stellenbeschreibung für einen Senior Optical Systems Engineer entwickeln.
 ```
 
-**Anwendungsfall:** Laser-System-Designs, Prozess-Spezifikationen, Kundenanwendungs-Dokumentationen
+**Anwendungsfall:** Stellenbeschreibungen, Recruiting-Strategien, Onboarding-Konzepte, Talent-Development-Programme
 
 ---
 
-### 3. Materials Science Engineer für SiC Technology
+### 3. Technical Sales Engineer für Networking-Lösungen (Sales – 40%)
 
 ```markdown
-Ich möchte mit dem Materials Science Engineer sprechen, der SiC-Substrate und Epitaxie-Technologie für Leistungselektronik entwickelt – 
-jemand, der Kristallwachstum versteht, Materialeigenschaften optimiert und Fertigungsprozesse für 150-mm und 200-mm Wafer kennt. 
-Du verstehst die Anforderungen der Elektromobilität und Energietechnik, kennst Defektanalyse und Materialcharakterisierung, 
-und entwickelst SiC-Lösungen, die Effizienz und Zuverlässigkeit in Leistungshalbleitern ermöglichen. 
-Wenn du verfügbar bist, möchte ich mit dir eine technische Dokumentation für neue SiC-Substrate-Spezifikationen erstellen.
+Ich möchte mit dem Technical Sales Engineer sprechen, der Photonik-Lösungen für Datacom-Kunden und Hyperscaler vertreibt – 
+jemand, der komplexe optische Transceiver-Technologien verständlich erklärt, Kundenanforderungen in technische Lösungskonzepte übersetzt und ROI-Berechnungen für hochskalierbare Netzwerkinfrastrukturen erstellt. 
+Du verstehst die Anforderungen von Cloud-Anbietern, kennst die Roadmap von 800G zu 1.6T-Technologien 
+und entwickelst Value Propositions, die technische Exzellenz mit wirtschaftlicher Effizienz verbinden. 
+Wenn du verfügbar bist, möchte ich mit dir ein technisches Angebot für eine 800G ZR/ZR+ Transceiver-Lösung für ein Tier-1-Rechenzentrum entwickeln.
 ```
 
-**Anwendungsfall:** Materialspezifikationen, Prozessdokumentationen, Technische Whitepapers
+**Anwendungsfall:** Technische Angebote, Kundenpräsentationen, Solution Proposals, Competitive Analyses
 
 ---
 
-### 4. Technical Marketing Manager für Photonics Solutions
+### 4. Materials Science Engineer für SiC-Technologien (Engineering – 30%)
 
 ```markdown
-Ich möchte mit dem Technical Marketing Manager sprechen, der Photonik-Lösungen für Datenzentren und Telekommunikation vermarktet – 
-jemand, der technische Komplexität verständlich macht, Value Propositions entwickelt und Markttrends in der optischen Kommunikation versteht. 
-Du verstehst die Sprache von CIOs und Netzwerk-Architekten, kennst Hyperscaler-Anforderungen 
-und entwickelst Content, der technische Innovation mit geschäftlichem Nutzen verbindet – ganz im Sinne von "Innovations That Resonate". 
-Wenn du verfügbar bist, möchte ich mit dir ein technisches Whitepaper für unsere neue 1.6T Transceiver-Plattform entwickeln.
+Ich möchte mit dem Materials Science Engineer sprechen, der Siliziumkarbid-Substrate und Epitaxie-Prozesse für Leistungselektronik in Elektrofahrzeugen optimiert – 
+jemand, der kristallographische Defekte analysiert, Hochtemperatur-Prozesse steuert und die Skalierung von 150mm auf 200mm-Wafer vorantreibt. 
+Du verstehst die Anforderungen der Automotive-Industrie, kennst Wide-Bandgap-Halbleiter-Physik 
+und entwickelst Materialien, die höchste Qualitätsstandards für SiC-basierte Power-Devices erfüllen. 
+Wenn du verfügbar bist, möchte ich mit dir eine Prozessspezifikation für die Produktion von 200mm SiC-Substraten erarbeiten.
 ```
 
-**Anwendungsfall:** Produktmarketing, Case Studies, Whitepapers, Blogbeiträge, Präsentationen
+**Anwendungsfall:** Prozessdokumentation, Qualitätsspezifikationen, Technische Reports, R&D-Dokumentation
 
 ---
 
-### 5. Quality Assurance Engineer für Laser Components
+### 5. IT Support Specialist für globale Infrastruktur (IT – 30%)
 
 ```markdown
-Ich möchte mit dem Quality Assurance Engineer sprechen, der Qualitätssicherungsprozesse für Laserkomponenten und optische Systeme entwickelt – 
-jemand, der Mess- und Testverfahren beherrscht, ISO-Standards kennt und präzise Qualitätskriterien definiert. 
-Du verstehst die Anforderungen hochpräziser Photonik-Produkte, kennst Reliability-Testing und Failure-Mode-Analysen, 
-und entwickelst QA-Prozesse, die unsere Reputation für technische Excellence und Zuverlässigkeit stärken. 
-Wenn du verfügbar bist, möchte ich mit dir ein Testprotokoll für neue VCSEL-Arrays entwickeln.
+Ich möchte mit dem IT Support Specialist sprechen, der IT-Infrastruktur für globale Produktionsstandorte und F&E-Zentren von Coherent betreut – 
+jemand, der komplexe Netzwerk- und Systemprobleme diagnostiziert, ITIL-konforme Incident-Management-Prozesse anwendet und technischen Support für hochspezialisierte Produktions- und Laborumgebungen bietet. 
+Du verstehst die Anforderungen von 24/7-Fertigungsanlagen, kennst die IT-Security-Standards für Halbleiter-Produktion 
+und entwickelst Dokumentationen, die technische Tiefe mit verständlicher Anleitung verbinden. 
+Wenn du verfügbar bist, möchte ich mit dir einen Troubleshooting-Guide für kritische Produktionssysteme erstellen.
 ```
 
-**Anwendungsfall:** Testprotokolle, Qualitätsdokumentationen, Audit-Reports, Spezifikations-Reviews
+**Anwendungsfall:** IT-Dokumentation, Troubleshooting-Guides, Incident-Reports, Wissensdatenbank-Artikel
 
 ---
 
-### 6. HR Business Partner für Engineering Teams
+### 6. Product Marketing Manager für Laser-Systeme (Marketing – 40%)
 
 ```markdown
-Ich möchte mit dem HR Business Partner sprechen, der Engineering-Teams bei Coherent unterstützt – 
-jemand, der die Kultur unserer "I CARE" Werte (Integrity, Collaboration, Accountability, Respect, Enthusiasm) versteht und lebt. 
-Du kennst die Herausforderungen in technologiegetriebenen Organisationen, verstehst die Bedürfnisse von Photonics-Experten und Materials Scientists, 
-und entwickelst HR-Strategien, die Innovation fördern und Talententwicklung ermöglichen. 
-Wenn du verfügbar bist, möchte ich mit dir ein Onboarding-Programm für neue Photonics Application Engineers entwickeln.
+Ich möchte mit dem Product Marketing Manager sprechen, der innovative Laser-Lösungen für industrielle Präzisionsfertigung und Halbleiter-Applications vermarktet – 
+jemand, der komplexe technische Features in überzeugende Value Propositions übersetzt, Markttrends analysiert und Go-to-Market-Strategien entwickelt. 
+Du verstehst die Sprache von Produktionsmanagern und Fertigungsingenieuren, kennst die Anforderungen von Advanced Packaging und Ultrakurzpuls-Lasertechnologie, 
+und entwickelst Content, der wissenschaftliche Exzellenz mit geschäftlichem Nutzen verbindet – ganz im Sinne von "Innovations That Resonate". 
+Wenn du verfügbar bist, möchte ich mit dir ein technisches Whitepaper für unsere neue Ultrakurzpuls-Laser-Serie für BEOL-Anwendungen erstellen.
 ```
 
-**Anwendungsfall:** Onboarding-Materialien, Mitarbeiterentwicklungs-Programme, interne Kommunikation
+**Anwendungsfall:** Produktmarketing, Whitepapers, Case Studies, Competitive Intelligence, Produktlaunches
 
 ---
 
-## Tipps für den Alltag
+## Tipps für den Alltag bei Coherent
 
-* Verwende **eine klare Aufgabenbeschreibung** – Sprachmodelle liefern bessere Ergebnisse, wenn du präzise sagst, was du brauchst.
-* Lass dir **Strukturen oder Gliederungen** erstellen, bevor du ins Detail gehst.
-* Bitte um **Ton- oder Stilvorgaben** (z. B. „wissenschaftlich fundiert", „technisch präzise", „kundenorientiert", „innovations-fokussiert").
-* Nutze KI-Tools, um **Formulierungen zu verfeinern** – nicht nur Inhalte zu generieren.
-* Prüfe technische Inhalte (z. B. optische Spezifikationen, Lasersystem-Architekturen) immer selbst auf **Richtigkeit und technische Genauigkeit**.
-* **Kein Einsatz von sensiblen Daten:** Gib keine proprietären Produktdaten, Fertigungsprozesse, Patentinformationen oder vertrauliche Forschungsergebnisse ein.
-* **Qualitätssicherung ist Pflicht:** Alle KI-Ergebnisse müssen von einem Fachexperten geprüft werden – besonders bei technischen Spezifikationen und Kundendokumentationen.
-* Bei Export-Control-relevanten Technologien (z.B. für Verteidigungsanwendungen) immer zusätzlich Compliance-Check durchführen.
+* Verwende **präzise technische Terminologie** – Sprachmodelle liefern bessere Ergebnisse bei wissenschaftlich korrekter Ausdrucksweise.
+* Lass dir **Strukturen oder Gliederungen** erstellen, bevor du ins Detail gehst (z.B. für technische Dokumentationen oder Whitepapers).
+* Bitte um **Ton- oder Stilvorgaben** (z.B. „wissenschaftlich fundiert", „kundenorientiert", „compliance-konform", „executive-ready").
+* Nutze KI-Tools, um **technische Formulierungen zu verfeinern** – nicht nur Inhalte zu generieren.
+* Prüfe technische Inhalte (z.B. optische Spezifikationen, Materialparameter, Lasersystem-Designs) immer selbst auf **wissenschaftliche Korrektheit und technische Präzision**.
+* **Kein Einsatz von proprietären Daten:** Gib keine Patentinformationen, Forschungsergebnisse, Fertigungsprozesse oder vertrauliche Kundenspezifikationen ein.
+* **Qualitätssicherung ist essentiell:** Alle KI-Ergebnisse müssen von einem Fachexperten geprüft werden (Human-in-the-Loop-Prinzip).
+* Bei regulierten Märkten (Medizintechnik, Automotive, Halbleiter) immer zusätzlich Compliance-Check durchführen.
 
 ---
 
 ## Sicherheitshinweise für den Einsatz bei Coherent Corp.
 
-**🔒 Datenschutz & Compliance:**
-- Keine Eingabe von **proprietären Produktdaten**, Patentinformationen oder Forschungsergebnissen
-- Keine **Kundendaten** oder vertrauliche Projektinformationen (z.B. Kundenspezifikationen, Angebotsdaten)
+**🔒 Datenschutz & technische Vertraulichkeit:**
+- Keine Eingabe von **proprietären Produktdaten**, Patentinformationen oder laufenden Forschungsprojekten
+- Keine **Kundendaten** oder vertrauliche Projektinformationen (z.B. Kundenspezifikationen, Angebotsdaten, NDA-geschützte Informationen)
 - Keine **Fertigungsprozesse**, Materialzusammensetzungen oder technische Spezifikationen mit Wettbewerbsrelevanz
+- Keine **Lasersystem-Designs**, optische Schaltpläne oder proprietäre Algorithmen
 - Bei Beispielen immer **anonymisierte oder fiktive Daten** verwenden
-- Beachtung von **ITAR** (International Traffic in Arms Regulations) bei Verteidigungsanwendungen
-- **Export-Control-Regelungen** bei sensitiven Technologien (z.B. High-Power Laser, Advanced Optics)
 
-**🔐 Geistiges Eigentum:**
-- Keine Details zu **Patenten in Entwicklung** oder Patent-Strategien
-- Keine **Trade Secrets** oder proprietäre Herstellungsverfahren (z.B. Kristallwachstum, Beschichtungsprozesse)
-- Keine internen **Roadmaps** oder unveröffentlichte Produktpläne
-- Keine technischen Details zu **Wettbewerbsvorteilen** oder einzigartigen Technologie-Differenzierungen
+**📋 Compliance & Regulierung:**
+- Keine personenbezogenen Daten (DSGVO-Konformität sicherstellen)
+- Keine Export-kontrollierten Technologien oder ITAR-relevante Informationen
+- Bei medizinischen Laser-Anwendungen: FDA- und CE-Konformität beachten
+- Bei Halbleiter-Materialien: Export-Compliance-Richtlinien einhalten
+- Bei Unsicherheit: Compliance Officer oder Legal Department konsultieren
 
 **✅ Qualitätssicherung:**
-- Alle KI-Ergebnisse müssen von einem **Fachexperten geprüft** werden
-- Bei technischen Inhalten: **Engineering Review** erforderlich (z.B. durch Senior Photonics Engineer)
-- Bei Kundenkommunikation: **Freigabe durch Technical Marketing oder Sales Engineering**
-- Keine 1:1-Übernahme ohne **Anpassung und technische Validierung**
-- Bei Produktspezifikationen: **Cross-Check mit offiziellen Datenblättern**
+- Bitte prüfe alle KI-generierten Ergebnisse eigenverantwortlich, bevor du sie weitergibst oder veröffentlichst
+- Das **Human-in-the-Loop-Prinzip** ist essentiell – verlasse dich nie ausschließlich auf automatisierte Ausgaben
+- Nutze dein Fachwissen zur kritischen Bewertung und finalen Qualitätskontrolle
+- Bei technischen Spezifikationen: Review durch Senior-Experten oder Principal Engineers
+- Bei Kundenkommunikation: Freigabe durch verantwortliche Fachabteilung
+- Bei wissenschaftlichen Publikationen: Peer-Review-Prozess einhalten
+- Keine 1:1-Übernahme ohne Anpassung, Validierung und fachliche Prüfung
 
 ---
 
-## Abteilungsspezifische Anwendungsfälle
+## Abteilungsspezifische Anwendungsfälle bei Coherent
 
-### Engineering & R&D (Networking, Materials, Lasers)
-- Erstellung von technischen Spezifikationen für Photonik-Systeme
-- Application Notes für Laser-Anwendungen
-- Technische Whitepapers zu optischen Technologien
-- Designdokumentationen für neue Transceiver-Generationen
-- Prozess-Spezifikationen für Materialherstellung
-- Testprotokolle und Validierungs-Dokumentationen
+### Networking Segment (Datacom, Telecom, Optical Communications)
+- Technische Spezifikationen für 800G/1.6T Transceiver
+- Produktdatenblätter für kohärente optische Systeme
+- Application Notes für VCSEL-Arrays und Silizium-Photonik
+- Performance-Benchmarks und Competitive Analyses
+- Kundenpräsentationen für Hyperscaler und Cloud-Anbieter
+- Whitepapers zu Co-Packaged Optics (CPO) und Optical Switching
 
-### Technical Marketing
-- Produktbeschreibungen für optische Kommunikationssysteme
-- Case Studies zu Kundenanwendungen (anonymisiert)
-- Technische Blogbeiträge zu Photonik-Trends
-- Präsentationen für Fachmessen und Konferenzen
-- Whitepapers zu Technologie-Roadmaps
-- Value Propositions für neue Produktlinien
+### Materials Segment (SiC, InP, Engineered Materials)
+- Materialspezifikationen für SiC-Substrate und Epitaxie
+- Prozessdokumentation für Wide-Bandgap-Halbleiter
+- Qualitätskontroll-Richtlinien für thermoelektrische Komponenten
+- Technische Reports zu Kristallwachstum und Defektanalyse
+- Produktbeschreibungen für optische Komponenten und Laseroptiken
+- Case Studies zu Automotive-Anwendungen (EV-Leistungselektronik)
 
-### Sales & Applications Engineering
-- Technische Angebotsdokumentationen
-- Solution Designs für Kundenanforderungen
-- ROI-Berechnungen für Lasersysteme
-- Competitive Intelligence (öffentliche Informationen)
-- Kundenpräsentationen und Executive Summaries
-- Technische FAQ-Dokumentationen
+### Lasers Segment (Industrial, Medical, Scientific)
+- Produktdokumentationen für Ultrakurzpuls-Laser (USP)
+- Application Guides für Faserlaser in der Präzisionsfertigung
+- Technische Whitepapers zu Advanced Packaging (BEOL)
+- Sicherheitsdokumentation für medizinische Laser-Systeme
+- Kundenreferenzen für industrielle Laser-Anwendungen
+- Forschungsberichte zu neuen Lasertechnologien
 
-### Quality & Compliance
-- Testverfahren und Qualitätsprotokolle
-- Audit-Dokumentationen
-- Compliance-Reports (ITAR, Export Control)
-- Failure Analysis Berichte (anonymisiert)
-- ISO-Dokumentationen
-- Reliability-Test-Spezifikationen
+### Sales & Business Development
+- Technische Angebote und Solution Proposals
+- Value Propositions für innovative Photonik-Lösungen
+- ROI-Berechnungen für optische Kommunikationssysteme
+- Kundenpräsentationen mit wissenschaftlicher Tiefe
+- Competitive Intelligence und Marktanalysen
+- Executive Summaries für strategische Partnerschaften
 
-### Product Management
-- Product Requirements Documents (PRDs)
-- Feature-Spezifikationen für neue Produkte
-- Roadmap-Kommunikationen (intern)
-- Market Requirements Analysen
-- Competitive Analysis (öffentliche Daten)
-- Release Notes und Changelogs
+### Marketing & Communications
+- Content Creation für technische Whitepapers
+- Case Studies und Kundenreferenzen
+- Produktlaunches für innovative Laser- und Photonik-Lösungen
+- Social Media Posts zu Photonik-Trends und Innovationen
+- Pressemitteilungen zu wissenschaftlichen Durchbrüchen
+- SEO-optimierte technische Produktbeschreibungen
 
-### Human Resources
-- Onboarding-Materialien für neue Engineers
-- Technische Rollenprofile und Job Descriptions
-- Schulungsunterlagen zu I CARE Werten
-- Interne Kommunikation zu Unternehmenskultur
-- Mitarbeiterentwicklungs-Programme
-- Team-Building-Konzepte
+### R&D & Engineering
+- Forschungsberichte und technische Dokumentationen
+- Patentanalysen und Prior-Art-Recherchen
+- Design-Reviews und technische Spezifikationen
+- Testkonzepte und Validierungsberichte
+- Technische Präsentationen für wissenschaftliche Konferenzen
+- Collaborative Research Proposals
+
+### Quality Assurance & Compliance
+- Qualitätskontroll-Richtlinien und SOPs
+- Audit-Dokumentationen und Compliance-Reports
+- Failure-Mode-Analysis (FMEA) für Laser-Systeme
+- Risikobewertungen für medizinische Anwendungen
+- ISO-Zertifizierungs-Dokumentationen
+- Korrekturmaßnahmen-Protokolle (CAPA)
+
+### Human Resources & Talent Development
+- Stellenbeschreibungen für hochspezialisierte Photonik-Positionen
+- Onboarding-Programme für MINT-Talente
+- Training-Materialien zu I CARE Werten
+- Performance-Review-Leitfäden
+- Diversitäts- und Inklusionsstrategien
+- Talent-Development-Roadmaps
 
 ---
 
 ## Fazit
 
-Wenn du diese Methoden nutzt, werden KI-Assistenten zu echten **Sparringspartnern für Photonik-Profis** –
-Tools, die dich bei der **Konzeption, Formulierung und Strukturierung** technischer Inhalte unterstützen.
+Wenn du diese Methoden nutzt, werden KI-Assistenten zu echten **Sparringspartnern für Photonik-Experten bei Coherent** –
+Tools, die dich bei der **Konzeption, Formulierung und Strukturierung** wissenschaftlich fundierter Inhalte unterstützen.
 
-So gewinnst du Zeit, Präzision und Klarheit im Arbeitsalltag –
-und nutzt die Möglichkeiten der KI gezielt, um deine Aufgaben bei Coherent bestmöglich zu erfüllen,
-ganz im Sinne unserer Mission: **"Innovations That Resonate"**.
-
-Durch die intelligente Nutzung von KI-Assistenten können wir:
-- Technische Dokumentationen präziser und konsistenter erstellen
-- Komplexe Photonik-Konzepte verständlicher kommunizieren
-- Innovative Lösungsansätze schneller strukturieren
-- Die wissenschaftliche Excellence von Coherent in allen Kommunikationsformen widerspiegeln
+So gewinnst du Zeit, Klarheit und Kreativität im Arbeitsalltag –
+und nutzt die Möglichkeiten der KI gezielt, um deine Aufgaben bei Coherent bestmöglich zu erfüllen, ganz im Sinne unserer Mission: **"Innovations That Resonate"**.
 
 **Nächste Schritte:**
-1. Probiere die Persona-Methode mit einem konkreten Projekt aus (z.B. technisches Datenblatt, Application Note)
-2. Erstelle eigene Experten-Prompts für deine spezifischen Aufgaben in Networking, Materials oder Lasers
-3. Teile erfolgreiche Prompts mit deinem Team (unter Beachtung der Sicherheitsrichtlinien)
-4. Dokumentiere Best Practices für deinen Arbeitsbereich und trage zur kontinuierlichen Verbesserung bei
+1. Probiere die Persona-Methode mit einem konkreten Projekt aus deinem Arbeitsbereich (Networking, Materials oder Lasers)
+2. Erstelle eigene Experten-Prompts für deine spezifischen technischen Aufgaben
+3. Teile erfolgreiche Prompts mit deinem Team und dokumentiere Best Practices
+4. Nutze KI-Assistenten als Ergänzung – nie als Ersatz – für deine fachliche Expertise
+5. Integriere das Human-in-the-Loop-Prinzip in alle deine Workflows
 
-**Remember our I CARE values:**
-- **Integrity**: Nutze KI verantwortungsvoll und transparent
-- **Collaboration**: Teile Best Practices mit Kollegen
-- **Accountability**: Übernimm Verantwortung für KI-generierte Inhalte
-- **Respect**: Achte auf Datenschutz und geistiges Eigentum
-- **Enthusiasm**: Entdecke neue Möglichkeiten mit Begeisterung
+Denke daran: KI ist ein Werkzeug zur **Verstärkung deiner wissenschaftlichen Kompetenz**, nicht deren Ersatz.
+Deine Expertise, dein kritisches Denken und deine Verantwortung bleiben der Kern jeder erfolgreichen Anwendung.
 
 ---
 
-**© Coherent Corp. 2025. Alle Rechte vorbehalten.**  
-*Innovations That Resonate*
+**@ HPI - 2025 | KI-Praxisworkshop Tutorials**
+
+**Remember our I CARE values:**
+* **Integrity**: Nutze KI verantwortungsvoll und transparent
+* **Collaboration**: Teile Best Practices mit Kollegen
+* **Accountability**: Übernimm Verantwortung für KI-generierte Inhalte
+* **Respect**: Achte auf Datenschutz und geistiges Eigentum
+* **Enthusiasm**: Entdecke neue Möglichkeiten mit Begeisterung
+
+© Coherent Corp. 2025. Alle Rechte vorbehalten. **Innovations That Resonate**
