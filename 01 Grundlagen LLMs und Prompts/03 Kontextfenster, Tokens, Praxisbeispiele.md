@@ -839,24 +839,5 @@ Semiconductor: "Präzision, Durchsatz, Advanced Packaging."
 
 ---
 
-# 🔍 Nützliche Ressourcen
-
-**Interne Coherent-Ressourcen (ergänzen):**
-* Token-Zähler des genutzten KI-Anbieters
-* Coherent Brand Guidelines und Corporate Identity
-* I CARE Values Framework
-* Produktdatenblätter und technische Spezifikationen
-* Coherent Corporate Communications Styleguide
-* Compliance-Richtlinien für verschiedene Märkte
-
-**Externe technische Standards:**
-* IEEE Standards (802.3 für Ethernet, etc.)
-* ITU-T Recommendations (Telekommunikation)
-* JEDEC Standards (Halbleiter)
-* IEC Standards (Photonik und Optoelektronik)
-* ISO/IEC 27001 (Informationssicherheit)
-
----
-
 **@ HPI - 2025 | KI-Praxisworkshop Tutorials**
 
