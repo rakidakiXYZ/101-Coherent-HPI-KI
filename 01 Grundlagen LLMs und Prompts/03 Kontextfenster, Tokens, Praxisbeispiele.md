@@ -28,7 +28,10 @@ Die KI hat aus sehr vielen Texten gelernt, **welche Wörter typischerweise aufei
 **Praktisches Coherent-Beispiel:**
 
 ```
-Prompt: "Erstelle eine Betreffzeile für ein technisches Whitepaper zur Silizium-Photonik in AI-Rechenzentren."
+Prompt: 
+"Erstelle eine Betreffzeile für ein technisches Whitepaper zur 
+Silizium-Photonik in AI-Rechenzentren."
+
 KI denkt u.a.:
 - "Silicon Photonics for 1.6T AI Infrastructure: Technical Deep Dive"
 - "Enabling Next-Gen Datacom: Coherent's Integrated Photonics Approach"
@@ -104,11 +107,13 @@ Typische Größen: ~128.000 bis >1.000.000 Tokens
 
 ```
 Weniger präzise:
-"Ich hoffe, Sie haben einen angenehmen Tag. Ich hätte da eine Anfrage bezüglich optischer Transceiver..."
+"Ich hoffe, Sie haben einen angenehmen Tag. Ich hätte da eine Anfrage 
+bezüglich optischer Transceiver..."
 → viele Füllwörter, ineffizient
 
 Präzise:
-"Liste: 5 technische Vorteile von 800G ZR/ZR+ Transceivern für hyperscale Datacenters. Pro Punkt max. 20 Wörter."
+"Liste: 5 technische Vorteile von 800G ZR/ZR+ Transceivern für 
+hyperscale Datacenters. Pro Punkt max. 20 Wörter."
 → klar strukturiert, effizient
 ```
 
@@ -158,10 +163,20 @@ Schritt 4: "Die Technologie ermöglicht präzise..."
 **Beispiel (Produktdokumentation):**
 
 ```
-Kontext: Technisches Datenblatt für 1.6T-DR8 Transceiver-Modul, Zielgruppe: Datacenter-Architekten.
-Aufgabe: 3 Anwendungsszenarien mit Performance-Charakteristiken.
-Kriterien: Technisch fundiert, IEEE-Standards referenzieren, Power-Effizienz hervorheben.
-Kontrolle: Tabelle, max. 12 Zeilen, am Ende 1 Differenzierungsaussage zu Wettbewerbslösungen.
+Kontext: 
+Technisches Datenblatt für 1.6T-DR8 Transceiver-Modul, 
+Zielgruppe: Datacenter-Architekten.
+
+Aufgabe: 
+3 Anwendungsszenarien mit Performance-Charakteristiken.
+
+Kriterien: 
+Technisch fundiert, IEEE-Standards referenzieren, 
+Power-Effizienz hervorheben.
+
+Kontrolle: 
+Tabelle, max. 12 Zeilen, am Ende 1 Differenzierungsaussage 
+zu Wettbewerbslösungen.
 ```
 
 ---
@@ -171,9 +186,17 @@ Kontrolle: Tabelle, max. 12 Zeilen, am Ende 1 Differenzierungsaussage zu Wettbew
 **Technik „Roter Faden"**
 
 ```
-P1: "Thema: Entwicklung einer Marketingstrategie für SiC-Substrate Q2/2026. Zielgruppen: EV-Hersteller, Leistungselektronik, Ladeinfrastruktur."
-P2: "Empfehle 5 technische Kommunikationskanäle, je 1 Satz Nutzen für die Zielgruppe."
-P3: "Für Kanal 2: Entwurf eines 3-Monats-Content-Plans mit Fokus auf technische Differenzierung."
+P1: 
+"Thema: Entwicklung einer Marketingstrategie für SiC-Substrate Q2/2026. 
+Zielgruppen: EV-Hersteller, Leistungselektronik, Ladeinfrastruktur."
+
+P2: 
+"Empfehle 5 technische Kommunikationskanäle, je 1 Satz Nutzen 
+für die Zielgruppe."
+
+P3: 
+"Für Kanal 2: Entwurf eines 3-Monats-Content-Plans mit Fokus 
+auf technische Differenzierung."
 ```
 
 **Technik „Zwischenbilanz"**
@@ -214,22 +237,31 @@ VCSEL = Vertical-Cavity Surface-Emitting Laser
 CPO = Co-Packaged Optics
 USP = Ultrakurzpulslaser
 SiC = Siliziumkarbid
-Erstelle Produktvergleich: InP-basierte Transceiver vs. SiC-Substrate für CPO-Anwendungen."
+
+Erstelle Produktvergleich: InP-basierte Transceiver vs. 
+SiC-Substrate für CPO-Anwendungen."
 ```
 
 **2) Struktur erzwingen**
 
 ```
 "Ausgabe als Tabelle:
-Spalte: Technologie | Performance-Vorteil | Anwendungsbereich | Zielmarkt | Verfügbarkeit"
+Spalte: Technologie | Performance-Vorteil | Anwendungsbereich | 
+        Zielmarkt | Verfügbarkeit"
 ```
 
 **3) Inkrementell arbeiten**
 
 ```
-Schritt 1: "Liste 5 technische Herausforderungen bei der Skalierung von 800G auf 1.6T Datacom."
-Schritt 2: "Detailliere Herausforderung 3 (Root Cause/Auswirkung/Lösung)."
-Schritt 3: "Erstelle Engineering-Maßnahmenplan (Owner + Technologie-Milestone)."
+Schritt 1: 
+"Liste 5 technische Herausforderungen bei der Skalierung 
+von 800G auf 1.6T Datacom."
+
+Schritt 2: 
+"Detailliere Herausforderung 3 (Root Cause/Auswirkung/Lösung)."
+
+Schritt 3: 
+"Erstelle Engineering-Maßnahmenplan (Owner + Technologie-Milestone)."
 ```
 
 **Mini-Tabelle**
@@ -254,7 +286,8 @@ Schritt 3: "Erstelle Engineering-Maßnahmenplan (Owner + Technologie-Milestone).
 * [ ] Präzise technische Aufgabe definiert?
 * [ ] Ein klar abgegrenztes Thema?
 * [ ] Format + Länge spezifiziert?
-* [ ] Proprietäre Daten/vertrauliche Informationen entfernt/anonymisiert?
+* [ ] Proprietäre Daten/vertrauliche Informationen 
+      entfernt/anonymisiert?
 * [ ] Technische Standards (IEEE, ISO) referenziert wo relevant?
 
 ---
@@ -352,80 +385,135 @@ Die folgenden Beispiele zeigen, wie unterschiedliche Rollen bei Coherent KI-Assi
 ## 1. Technical Sales Engineer für Networking Solutions (Vertrieb)
 
 ```markdown
-Ich möchte mit einem Technical Sales Engineer sprechen, der High-Speed-Transceiver (800G/1.6T) an Hyperscaler verkauft und dabei technische Spezifikationen in Business Value übersetzen muss, während er gleichzeitig Wettbewerbsdifferenzierung klar kommuniziert und komplexe Datacenter-Architekturen verständlich erklärt.
+Ich möchte mit einem Technical Sales Engineer sprechen, der 
+High-Speed-Transceiver (800G/1.6T) an Hyperscaler verkauft und dabei 
+technische Spezifikationen in Business Value übersetzen muss, während 
+er gleichzeitig Wettbewerbsdifferenzierung klar kommuniziert und 
+komplexe Datacenter-Architekturen verständlich erklärt.
 ```
 
-**Anwendungsfall:** Erstellung technischer Verkaufspräsentationen, ROI-Kalkulationen für optische Netzwerk-Upgrades, Competitive Positioning Dokumente, technische Antworten auf RFPs/RFQs von Datacenter-Betreibern.
+**Anwendungsfall:** Erstellung technischer Verkaufspräsentationen, 
+ROI-Kalkulationen für optische Netzwerk-Upgrades, Competitive 
+Positioning Dokumente, technische Antworten auf RFPs/RFQs von 
+Datacenter-Betreibern.
 
 ---
 
 ## 2. Photonics Application Engineer für Materials Division (Engineering & Technik)
 
 ```markdown
-Ich möchte mit einem Photonics Application Engineer sprechen, der Kunden bei der Integration von SiC-Substraten in EV-Leistungselektronik berät und dabei Performance-Optimierung, thermisches Management und Zuverlässigkeitsfragen adressiert, während er technische Spezifikationen erstellt und Applikationsnotizen verfasst.
+Ich möchte mit einem Photonics Application Engineer sprechen, der 
+Kunden bei der Integration von SiC-Substraten in EV-Leistungselektronik 
+berät und dabei Performance-Optimierung, thermisches Management und 
+Zuverlässigkeitsfragen adressiert, während er technische Spezifikationen 
+erstellt und Applikationsnotizen verfasst.
 ```
 
-**Anwendungsfall:** Technische Whitepapers zu SiC-Eigenschaften, Anwendungsnotizen für Kunden-Designs, Failure Analysis Reports, technische Vergleichsstudien, Design Guidelines für Leistungshalbleiter.
+**Anwendungsfall:** Technische Whitepapers zu SiC-Eigenschaften, 
+Anwendungsnotizen für Kunden-Designs, Failure Analysis Reports, 
+technische Vergleichsstudien, Design Guidelines für Leistungshalbleiter.
 
 ---
 
 ## 3. HR Business Partner für Global Operations (Verwaltung & Personal)
 
 ```markdown
-Ich möchte mit einem HR Business Partner sprechen, der für die Standorte Ipoh und Penang (Malaysia) zuständig ist und dabei Talentakquise für Photonik-Ingenieure koordiniert, Onboarding-Programme entwickelt und Mitarbeiterentwicklungspläne erstellt, während er kulturelle Diversität fördert und Coherent's I CARE Werte kommuniziert.
+Ich möchte mit einem HR Business Partner sprechen, der für die Standorte 
+Ipoh und Penang (Malaysia) zuständig ist und dabei Talentakquise für 
+Photonik-Ingenieure koordiniert, Onboarding-Programme entwickelt und 
+Mitarbeiterentwicklungspläne erstellt, während er kulturelle Diversität 
+fördert und Coherent's I CARE Werte kommuniziert.
 ```
 
-**Anwendungsfall:** Job Descriptions für spezialisierte Rollen (InP-Prozessingenieure), Onboarding-Materialien für internationale Teams, Performance Review Templates, Diversity & Inclusion Kommunikation, Training-Programme zu technischen Standards.
+**Anwendungsfall:** Job Descriptions für spezialisierte Rollen 
+(InP-Prozessingenieure), Onboarding-Materialien für internationale Teams, 
+Performance Review Templates, Diversity & Inclusion Kommunikation, 
+Training-Programme zu technischen Standards.
 
 ---
 
 ## 4. Product Marketing Manager für Laser Systems (Vertrieb & Marketing)
 
 ```markdown
-Ich möchte mit einem Product Marketing Manager sprechen, der Ultrakurzpulslaser für Halbleiter-BEOL-Anwendungen vermarktet und dabei Go-to-Market-Strategien entwickelt, Produktpositionierung gegen Wettbewerber definiert und technische Inhalte für verschiedene Stakeholder aufbereitet, während er Markttrends in der Advanced Packaging Industrie analysiert.
+Ich möchte mit einem Product Marketing Manager sprechen, der 
+Ultrakurzpulslaser für Halbleiter-BEOL-Anwendungen vermarktet und dabei 
+Go-to-Market-Strategien entwickelt, Produktpositionierung gegen 
+Wettbewerber definiert und technische Inhalte für verschiedene 
+Stakeholder aufbereitet, während er Markttrends in der Advanced Packaging 
+Industrie analysiert.
 ```
 
-**Anwendungsfall:** Produktlaunch-Pläne, Competitive Intelligence Reports, Kundenpräsentationen für C-Level, Value Proposition Dokumente, Content-Marketing-Strategien für LinkedIn/Fachmedien, Messekommunikation.
+**Anwendungsfall:** Produktlaunch-Pläne, Competitive Intelligence Reports, 
+Kundenpräsentationen für C-Level, Value Proposition Dokumente, 
+Content-Marketing-Strategien für LinkedIn/Fachmedien, Messekommunikation.
 
 ---
 
 ## 5. IT Support Specialist für Global Infrastructure (Verwaltung & IT)
 
 ```markdown
-Ich möchte mit einem IT Support Specialist sprechen, der globale IT-Systeme für 130+ Standorte betreut und dabei Incident-Management koordiniert, Wissensdatenbank-Artikel erstellt und Anwender-Support leistet, während er IT-Sicherheitsrichtlinien durchsetzt und System-Dokumentation pflegt.
+Ich möchte mit einem IT Support Specialist sprechen, der globale 
+IT-Systeme für 130+ Standorte betreut und dabei Incident-Management 
+koordiniert, Wissensdatenbank-Artikel erstellt und Anwender-Support 
+leistet, während er IT-Sicherheitsrichtlinien durchsetzt und 
+System-Dokumentation pflegt.
 ```
 
-**Anwendungsfall:** Incident-Dokumentationen, IT-Sicherheitsrichtlinien in verständlicher Sprache, Benutzerhandbücher für interne Tools, Eskalations-Prozeduren, FAQ-Artikel für Helpdesk, Technische Mitteilungen an Endanwender.
+**Anwendungsfall:** Incident-Dokumentationen, IT-Sicherheitsrichtlinien in 
+verständlicher Sprache, Benutzerhandbücher für interne Tools, 
+Eskalations-Prozeduren, FAQ-Artikel für Helpdesk, Technische Mitteilungen 
+an Endanwender.
 
 ---
 
 ## 6. Optical Communications Specialist für Telecom Products (Engineering & Technik)
 
 ```markdown
-Ich möchte mit einem Optical Communications Specialist sprechen, der kohärente 400G/800G Transceiver für Metro- und Langstrecken-Netze entwickelt und dabei DSP-Algorithmen optimiert, Link-Budgets berechnet und Field-Trial-Ergebnisse analysiert, während er IEEE-Standards interpretiert und technische Kundenanfragen beantwortet.
+Ich möchte mit einem Optical Communications Specialist sprechen, der 
+kohärente 400G/800G Transceiver für Metro- und Langstrecken-Netze 
+entwickelt und dabei DSP-Algorithmen optimiert, Link-Budgets berechnet 
+und Field-Trial-Ergebnisse analysiert, während er IEEE-Standards 
+interpretiert und technische Kundenanfragen beantwortet.
 ```
 
-**Anwendungsfall:** Technische Spezifikationsdokumente, Link-Budget-Kalkulationen, Test-Reports für Feldversuche, Standards-Compliance-Dokumentation, technische Präsentationen für Telco-Kunden, Engineering Change Notices.
+**Anwendungsfall:** Technische Spezifikationsdokumente, 
+Link-Budget-Kalkulationen, Test-Reports für Feldversuche, 
+Standards-Compliance-Dokumentation, technische Präsentationen für 
+Telco-Kunden, Engineering Change Notices.
 
 ---
 
 ## 7. Executive Assistant für VP Corporate Communications (Verwaltung)
 
 ```markdown
-Ich möchte mit einer Executive Assistant sprechen, die den VP Corporate Communications unterstützt und dabei Meeting-Koordination für globale Teams managt, Reiseplanung optimiert und interne Kommunikation vorbereitet, während sie Stakeholder-Management unterstützt und vertrauliche Informationen mit höchster Diskretion behandelt.
+Ich möchte mit einer Executive Assistant sprechen, die den VP Corporate 
+Communications unterstützt und dabei Meeting-Koordination für globale 
+Teams managt, Reiseplanung optimiert und interne Kommunikation vorbereitet, 
+während sie Stakeholder-Management unterstützt und vertrauliche 
+Informationen mit höchster Diskretion behandelt.
 ```
 
-**Anwendungsfall:** Meeting-Agenden und Protokolle, Reisekoordination mit Budget-Tracking, interne Ankündigungen und Newsletter, Executive Summaries für C-Level, Stakeholder-Kommunikation, Event-Organisation für Führungskräfte.
+**Anwendungsfall:** Meeting-Agenden und Protokolle, Reisekoordination mit 
+Budget-Tracking, interne Ankündigungen und Newsletter, Executive Summaries 
+für C-Level, Stakeholder-Kommunikation, Event-Organisation für 
+Führungskräfte.
 
 ---
 
 ## 8. Content Marketing Manager für Corporate Brand (Vertrieb & Marketing)
 
 ```markdown
-Ich möchte mit einem Content Marketing Manager sprechen, der Coherent's "Innovations That Resonate" Tagline zum Leben erweckt und dabei Thought-Leadership-Artikel verfasst, Social-Media-Kampagnen koordiniert und technische Success Stories entwickelt, während er Brand Voice Guidelines einhält und SEO-Optimierung betreibt.
+Ich möchte mit einem Content Marketing Manager sprechen, der Coherent's 
+"Innovations That Resonate" Tagline zum Leben erweckt und dabei 
+Thought-Leadership-Artikel verfasst, Social-Media-Kampagnen koordiniert 
+und technische Success Stories entwickelt, während er Brand Voice 
+Guidelines einhält und SEO-Optimierung betreibt.
 ```
 
-**Anwendungsfall:** LinkedIn-Posts mit technischem Tiefgang, Blogartikel zu Photonik-Trends, Customer Success Stories, Pressemitteilungen, Newsletter-Content, Website-Texte, Social-Media-Kampagnen für Produktlaunches.
+**Anwendungsfall:** LinkedIn-Posts mit technischem Tiefgang, Blogartikel 
+zu Photonik-Trends, Customer Success Stories, Pressemitteilungen, 
+Newsletter-Content, Website-Texte, Social-Media-Kampagnen für 
+Produktlaunches.
 
 ---
 
@@ -476,7 +564,8 @@ KI-Assistenten können überzeugende, aber **technisch inkorrekte** Informatione
 
 **Prompt-Struktur für technische Dokumentation:**
 ```
-"Rolle: [Photonics Engineer/Materials Scientist/Laser Systems Architect]
+"Rolle: [Photonics Engineer/Materials Scientist/
+         Laser Systems Architect]
 Kontext: [Technologiebereich, z.B. InP-Optoelektronik, SiC-Epitaxie]
 Aufgabe: [Spezifikation/Analyse/Konzept]
 Technische Basis: [Relevante Standards: IEEE 802.3, JEDEC, ISO]
@@ -500,10 +589,12 @@ Quellen: [Peer-reviewed Papers, Standards-Dokumente]"
 **Prompt-Struktur für technischen Vertrieb:**
 ```
 "Rolle: Technical Sales Engineer bei Coherent Corp.
-Zielgruppe: [CTO/VP Engineering/Procurement bei Hyperscaler/Telco/Automotive OEM]
+Zielgruppe: [CTO/VP Engineering/Procurement bei 
+            Hyperscaler/Telco/Automotive OEM]
 Kontext: [Kundenherausforderung, z.B. Datacenter-Skalierung auf 1.6T]
 Aufgabe: Value Proposition entwickeln
-Kriterien: Technisch fundiert, ROI-fokussiert, Differenzierung zu Wettbewerb
+Kriterien: Technisch fundiert, ROI-fokussiert, 
+           Differenzierung zu Wettbewerb
 Kontrolle: Max. 200 Wörter, mit quantifizierbaren Metriken, 1 CTA"
 ```
 
@@ -525,8 +616,10 @@ Kontrolle: Max. 200 Wörter, mit quantifizierbaren Metriken, 1 CTA"
 Zielgruppe: [Engineering Decision Makers / C-Level / Fachmedien]
 Kanal: [LinkedIn/Website/Whitepaper/Pressemitteilung]
 Thema: [Produktlaunch/Technologie-Trend/Thought Leadership]
-Ton: Wissenschaftlich präzise, innovativ, vertrauenswürdig, zugänglich (Coherent Brand Voice)
-Format: [Blogartikel/Social Post/Pressemitteilung/Produktbeschreibung]
+Ton: Wissenschaftlich präzise, innovativ, vertrauenswürdig, 
+     zugänglich (Coherent Brand Voice)
+Format: [Blogartikel/Social Post/Pressemitteilung/
+        Produktbeschreibung]
 Länge: [Wortanzahl]
 Technischer Tiefgang: [Engineering-Level vs. Business-Level]"
 ```
@@ -546,10 +639,13 @@ Technischer Tiefgang: [Engineering-Level vs. Business-Level]"
 
 **Prompt-Struktur für administrative Aufgaben:**
 ```
-"Rolle: [HR Business Partner/Executive Assistant/Operations Coordinator]
+"Rolle: [HR Business Partner/Executive Assistant/
+        Operations Coordinator]
 Kontext: [Standort/Abteilung, z.B. Global Operations, Ipoh Fab]
-Aufgabe: [Dokument-Typ, z.B. Job Description, Onboarding-Plan, Meeting-Agenda]
-Kriterien: Klar strukturiert, I CARE Werte integriert, kulturell sensitiv
+Aufgabe: [Dokument-Typ, z.B. Job Description, Onboarding-Plan, 
+         Meeting-Agenda]
+Kriterien: Klar strukturiert, I CARE Werte integriert, 
+           kulturell sensitiv
 Zielgruppe: [Mitarbeiter/Management/Kandidaten]
 Format: [Dokument-Typ]
 Compliance: [HR-Richtlinien, lokale Arbeitsgesetze beachten]"
@@ -571,12 +667,14 @@ Compliance: [HR-Richtlinien, lokale Arbeitsgesetze beachten]"
 **Prompt-Struktur für IT-Support:**
 ```
 "Rolle: IT Support Specialist / Systems Administrator
-Kontext: [IT-Infrastruktur-Bereich, z.B. Datacenter, Network, Security]
+Kontext: [IT-Infrastruktur-Bereich, z.B. Datacenter, Network, 
+         Security]
 Aufgabe: [Incident-Dokumentation/User Guide/IT-Policy]
 Zielgruppe: [End-User/IT-Team/Management]
 Technisches Level: [Nicht-technisch/Technisch/Expert]
 Format: [FAQ/Anleitung/Ticket-Dokumentation/Policy]
-Sicherheit: Keine System-Details, Credentials oder Netzwerk-Topologien"
+Sicherheit: Keine System-Details, Credentials oder 
+            Netzwerk-Topologien"
 ```
 
 **Typische Use Cases:**
@@ -682,9 +780,12 @@ WICHTIG:
 
 ```
 "Ton: Wissenschaftlich präzise, innovativ, vertrauenswürdig, zugänglich.
-Stil: Aktive Formulierungen, technische Metaphern (atomare Strukturen, Kohärenz).
-Werte: I CARE (Integrity, Collaboration, Accountability, Respect, Enthusiasm).
-Tagline-Spirit: 'Innovations That Resonate' – Fokus auf transformative Wirkung."
+Stil: Aktive Formulierungen, technische Metaphern 
+      (atomare Strukturen, Kohärenz).
+Werte: I CARE (Integrity, Collaboration, Accountability, 
+       Respect, Enthusiasm).
+Tagline-Spirit: 'Innovations That Resonate' – 
+                Fokus auf transformative Wirkung."
 ```
 
 ## Iteratives Verfeinern
@@ -700,7 +801,9 @@ Tagline-Spirit: 'Innovations That Resonate' – Fokus auf transformative Wirkung
 Prompt 1: "Erkläre Vorteile von Silizium-Photonik für Datacom."
 → KI gibt breiten Überblick
 
-Prompt 2: "Fokussiere auf Power-Effizienz. Vergleiche mit InP-Technologie. Max. 100 Wörter."
+Prompt 2: 
+"Fokussiere auf Power-Effizienz. Vergleiche mit InP-Technologie. 
+Max. 100 Wörter."
 → KI spezifiziert
 
 Prompt 3: "Ergänze quantitative Metriken (Watt/Gbps). Coherent Brand Voice."
@@ -717,7 +820,8 @@ Review: Prüfe IEEE-Konformität, verifiziere Zahlen gegen Datasheets
 
 ```
 Thema: "Neue 1.6T-DR8 Transceiver-Module für AI-Datacenter"
-Erzeuge 5 Betreffvarianten für technische Pressemitteilung (≤70 Zeichen).
+Erzeuge 5 Betreffvarianten für technische Pressemitteilung 
+(≤70 Zeichen).
 Ton: Innovativ, technisch fundiert, Coherent Brand Voice.
 ```
 
@@ -726,14 +830,16 @@ Ton: Innovativ, technisch fundiert, Coherent Brand Voice.
 ```
 Kontext: C-Level benötigt Kurzlage zu "Coherent SiC-Strategie 2026".
 Aufgabe: 5 Sätze, je ≤20 Wörter, am Ende 1 strategische Empfehlung.
-Kriterien: Faktenbasiert, Markttrends integrieren, I CARE Werte erkennbar.
+Kriterien: Faktenbasiert, Markttrends integrieren, 
+           I CARE Werte erkennbar.
 ```
 
 ### Ü3 – Technische Problemanalyse (10 Min)
 
 ```
 Eingabe: (Trainer-Text: Kundenanfrage zu Performance-Problemen)
-Ausgabe: Root Cause (3 Sätze), 3 technische Lösungsansätze, Empfehlung mit Begründung.
+Ausgabe: Root Cause (3 Sätze), 3 technische Lösungsansätze, 
+         Empfehlung mit Begründung.
 Format: Tabelle, technisch präzise.
 ```
 
@@ -752,14 +858,18 @@ Nenne nur Abweichungen + Korrekturvorschlag.
 
 **Technical Sales:**
 ```
-Erstelle Elevator Pitch (30 Sekunden) für 800G ZR+ Transceiver bei Hyperscalern.
-Zielgruppe: VP Network Engineering. Fokus: Business Value, TCO-Optimierung.
+Erstelle Elevator Pitch (30 Sekunden) für 800G ZR+ Transceiver 
+bei Hyperscalern.
+Zielgruppe: VP Network Engineering. 
+Fokus: Business Value, TCO-Optimierung.
 ```
 
 **Product Marketing:**
 ```
-Entwickle LinkedIn-Post-Konzept zu "50 Jahre Coherent Photonik-Innovation".
-3 Post-Varianten mit technischem Storytelling-Element und Call-to-Action.
+Entwickle LinkedIn-Post-Konzept zu 
+"50 Jahre Coherent Photonik-Innovation".
+3 Post-Varianten mit technischem Storytelling-Element und 
+Call-to-Action.
 ```
 
 **R&D Engineering:**
@@ -777,7 +887,8 @@ Rolle, Anforderungen, I CARE Werte, Coherent USPs als Arbeitgeber.
 **IT Support:**
 ```
 Verfasse Knowledge Base Artikel: "VPN-Setup für Remote-Mitarbeiter".
-Schritt-für-Schritt, nicht-technische Sprache, Troubleshooting-Sektion.
+Schritt-für-Schritt, nicht-technische Sprache, 
+Troubleshooting-Sektion.
 ```
 
 ---
@@ -798,21 +909,25 @@ Kriterien (Standards/Tiefgang) | Kontrolle (Format/Metriken)
 "IEEE/ISO-Standards referenzieren; sonst 'keine Standards-Basis'."
 "Ausgabe als Tabelle, max. [Länge], quantitative Metriken."
 "Technische Präzision prüfen, keine ungenauen Aussagen."
-"Coherent Brand Voice: wissenschaftlich, innovativ, vertrauenswürdig, zugänglich."
-"I CARE Werte integrieren: Integrity, Collaboration, Accountability, Respect, Enthusiasm."
+"Coherent Brand Voice: wissenschaftlich, innovativ, vertrauenswürdig, 
+ zugänglich."
+"I CARE Werte integrieren: Integrity, Collaboration, Accountability, 
+ Respect, Enthusiasm."
 ```
 
 **3) Technischer Sales-Prompt**
 
 ```
 "Executive Summary [Technologie] für [Kundentyp]:
-5 Sätze, technisch fundiert, Business-Value-Fokus, 1 quantifizierbare Metrik, 1 CTA."
+5 Sätze, technisch fundiert, Business-Value-Fokus, 
+1 quantifizierbare Metrik, 1 CTA."
 ```
 
 **4) Branchen-Prompts**
 
 ```
-Datacenters: "AI-Cluster-Anforderungen, Power-Effizienz, IEEE 802.3 Compliance."
+Datacenters: "AI-Cluster-Anforderungen, Power-Effizienz, 
+              IEEE 802.3 Compliance."
 Automotive: "AEC-Q Qualifizierung, MTBF, Supply-Chain-Resilienz."
 Telco: "ITU-T Standards, Metro/Long-Haul, kohärente Optik."
 Consumer: "Niedrige Leistung, Miniaturisierung, Massenproduktion."
@@ -839,5 +954,23 @@ Semiconductor: "Präzision, Durchsatz, Advanced Packaging."
 
 ---
 
-**@ HPI - 2025 | KI-Praxisworkshop Tutorials**
+# 🔍 Nützliche Ressourcen
 
+**Interne Coherent-Ressourcen (ergänzen):**
+* Token-Zähler des genutzten KI-Anbieters
+* Coherent Brand Guidelines und Corporate Identity
+* I CARE Values Framework
+* Produktdatenblätter und technische Spezifikationen
+* Coherent Corporate Communications Styleguide
+* Compliance-Richtlinien für verschiedene Märkte
+
+**Externe technische Standards:**
+* IEEE Standards (802.3 für Ethernet, etc.)
+* ITU-T Recommendations (Telekommunikation)
+* JEDEC Standards (Halbleiter)
+* IEC Standards (Photonik und Optoelektronik)
+* ISO/IEC 27001 (Informationssicherheit)
+
+---
+
+**@ HPI - 2025 | KI-Praxisworkshop Tutorials**
