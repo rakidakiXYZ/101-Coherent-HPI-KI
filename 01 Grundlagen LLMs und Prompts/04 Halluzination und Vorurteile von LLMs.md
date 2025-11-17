@@ -427,15 +427,15 @@ Ich möchte mit einem Customer Success Manager bei Coherent sprechen, der strate
 
 ## ✅ Zusammenfassung: Die goldenen Regeln für Coherent
 
-**Strukturierte Prompts** nutzen – keine "Quick & Dirty"-Anfragen, vor allem bei technischen Specs
-**Quellen einfordern** – jede Zahl, jedes Fakt belegen lassen 
-**Temperature bewusst wählen** – faktenbasiert niedrig (0.1-0.3), kreativ höher (0.6-0.8)
-**Bias aktiv reduzieren** – Perspektivenwechsel und Gegenprüfung (Devil's Advocate)
-**Technologie-Neutralität** – keine automatische Bevorzugung bestimmter Plattformen ohne Begründung
-**Menschliche Validierung** – bei kritischen/kundenbezogenen Inhalten Pflicht (Human-in-the-Loop)
-**Datenschutz wahren** – KEINE proprietären Daten, Kundenprojekte oder NDA-Informationen eingeben
-**Compliance beachten** – Qualitätsstandards, regulatorische Anforderungen
-**Dokumentation & Wissensaustausch** – erfolgreiche Prompts teilen, aus Fehlern lernen
+- **Strukturierte Prompts** nutzen – keine "Quick & Dirty"-Anfragen, vor allem bei technischen Specs
+- **Quellen einfordern** – jede Zahl, jedes Fakt belegen lassen 
+- **Temperature bewusst wählen** – faktenbasiert niedrig (0.1-0.3), kreativ höher (0.6-0.8)
+- **Bias aktiv reduzieren** – Perspektivenwechsel und Gegenprüfung (Devil's Advocate)
+- **Technologie-Neutralität** – keine automatische Bevorzugung bestimmter Plattformen ohne Begründung
+- **Menschliche Validierung** – bei kritischen/kundenbezogenen Inhalten Pflicht (Human-in-the-Loop)
+- **Datenschutz wahren** – KEINE proprietären Daten, Kundenprojekte oder NDA-Informationen eingeben
+- **Compliance beachten** – Qualitätsstandards, regulatorische Anforderungen
+- **Dokumentation & Wissensaustausch** – erfolgreiche Prompts teilen, aus Fehlern lernen
 
 ---
 
