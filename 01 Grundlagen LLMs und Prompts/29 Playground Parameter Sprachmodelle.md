@@ -285,4 +285,3 @@ Prompt:
 
 ---
 
-Wenn du willst, mache ich aus dieser MD-Datei auch direkt eine **PDF**, **PowerPoint**, **DOCX**, **Notion-Seite** oder eine **visuelle Infografik**.
