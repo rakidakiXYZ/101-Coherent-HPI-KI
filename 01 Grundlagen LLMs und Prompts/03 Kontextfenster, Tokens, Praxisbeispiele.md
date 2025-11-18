@@ -945,12 +945,7 @@ Semiconductor: "Präzision, Durchsatz, Advanced Packaging."
 * **Prompt** – Ihre Anweisung an die KI
 * **Temperature** – Kreativitätsparameter (niedrig = deterministischer)
 * **Token** – kleinste Recheneinheit für Text
-* **InP** – Indiumphosphid (Halbleitermaterial für Optoelektronik)
-* **VCSEL** – Vertical-Cavity Surface-Emitting Laser
-* **SiC** – Siliziumkarbid (Wide-Bandgap Halbleiter)
-* **CPO** – Co-Packaged Optics (Integration von Optik und Elektronik)
-* **ZR/ZR+** – Kohärente Transceiver-Standards für Datacom/Telco
-* **USP** – Ultrakurzpulslaser (Femtosekunden-/Pikosekunden-Laser)
+
 
 ---
 
