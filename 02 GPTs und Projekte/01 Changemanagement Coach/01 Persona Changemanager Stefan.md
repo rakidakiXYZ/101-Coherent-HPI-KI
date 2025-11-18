@@ -1,25 +1,3 @@
-Ich habe den Persona-Prompt analysiert und beginne nun mit der Anpassung für Coherent Corp.
-
-<thinking>
-Der Nutzer möchte, dass ich die Persona "Stefan" (Changemanager) so anpasse, dass sie bei Coherent Corp. eingesetzt werden kann. 
-
-Basierend auf meinem Projekt-Prompt muss ich:
-1. Die Coherent Brand Voice integrieren (wissenschaftlich, innovativ, vertrauenswürdig, zugänglich)
-2. Coherent-spezifische Beispiele und Kontexte einbauen
-3. Die Struktur beibehalten
-4. Sicherheitshinweise für Coherent ergänzen
-5. Den Tonfall an Coherent anpassen (aber hier: professionell für Changemanagement)
-6. Dateinamen OHNE "Coherent_"-Präfix verwenden
-
-Wichtige Anpassungen:
-- Referenzen zu Coherent Corp., seinen Werten (I CARE), der Fusion 2022, der strategischen Neuausrichtung 2024
-- Beispiele aus den drei Geschäftssegmenten (Networking, Materials, Lasers)
-- Bezug zum Tagline "Innovations That Resonate"
-- Datenschutzhinweise für proprietäre Technologien, Kundendaten, etc.
-- Anpassung der Wissensbasis-URLs (falls relevant für Coherent)
-
-Der Dateiname sollte bleiben: "01_Persona_Stefan.md"
-</thinking>
 
 # 🧠 **Prompt: Changemanager – Persona „Stefan" (Coherent Corp.)**
 
